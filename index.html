@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
 </head>
 
 <body>
     <section class="header">
         <div class="center">
             <div class="header__center__nav">
-                <nav>
+                <nav class="desktop">
                     <h2><Span><</Span>Graciano.Junior<Span>></Span></h2>
                     <ul>
                         <li><a href="#sobreMim">Sobre mim</a></li>
@@ -24,6 +25,17 @@
                     </ul>
                     <div class="clear"></div>
                 </nav>
+                <nav class="mobile">
+                    <h2><Span><</Span>Graciano.Junior<Span>></Span></h2>
+                    <a><i class="fas fa-bars"></i></a>
+                    <ul>
+                        <li><a href="#sobreMim">Sobre mim</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </nav>
+                <div class="clear"></div>
             </div>
 
         </div>
@@ -99,10 +111,13 @@
             <h2>Contato</h2>
             <div class="contato__info">
                 <div class="contato__info_data">
-                    <h4>Email: gracianobarbosalimajunior@gmail.com</h4>
-                    <h4>Celular: (85) 98161-9468</h4>
+                    <p>Email: gracianobarbosalimajunior@gmail.com</p>
+                    <p>Celular: (85) 98161-9468</p>
                 </div>
-                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="dark" data-vanity="graciano-barbosa-lima-junior-ba3746185"><a class="LI-simple-link" href='https://br.linkedin.com/in/graciano-barbosa-lima-junior-ba3746185?trk=profile-badge'>Graciano Barbosa Lima Junior</a></div>
+                <div class="linkEdin">
+                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="dark" data-vanity="graciano-barbosa-lima-junior-ba3746185"><a class="LI-simple-link" href='https://br.linkedin.com/in/graciano-barbosa-lima-junior-ba3746185?trk=profile-badge'>Graciano Barbosa Lima Junior</a></div>
+                </div>
+                
             </div>
             <div class="clear"></div>
         </div>
@@ -110,6 +125,8 @@
     <footer>
         <p>Desenvolvido por Graciano Junior 2021</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="all.js"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="functions.js"></script>
 </body>
