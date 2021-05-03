@@ -243,6 +243,32 @@ div[fontawesome]{
     z-index: 1;
     opacity: .2;
 }
+div[appAlarme]{
+    background-image: url(sources/app_alarme.png);
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
+    opacity: .2;
+}
+div[spotfy_mini_clone]{
+    background-image: url(sources/spotfy_mini_clone.png);
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
+    opacity: .2;
+}
+
+
 
 
 .projetos__display__box:hover > .projetos__display__box__info{
